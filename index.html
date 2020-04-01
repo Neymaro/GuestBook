@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guest Book | GitHub NEYMARO</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3b3cf84f05.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--Welcoming Part -->
+<div style="margin-top: 10px;" class="container-md">
+    <div class="row">
+        <h1>Guest Notebook!</h1>
+    </div>
+    <hr>
+    <h6>Are you looking for source code?</h6> 
+    <hr>
+    <a href="https://github.com/Neymaro/GuestBook">GitHUB</a>     
+<hr>
+</div>
+  
+
+<!--Welcoming Part -->
+<!--Mesaj Gönderim Kısmı-->
+    <div class="container-md">
+       <div class="row">
+            <div class="col-xs-6 col-md-6">
+            <form id="formguest">
+              <div class="form-group">
+              <label for="validationDefault01">First name</label>
+              <input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
+              </div>
+            </div>
+            <div class="col-xs-6 col-md-6 col-md-push-4">
+             <div class="form-group">
+              <label for="validationDefault01">Surname</label>
+              <input type="text" class="form-control" id="surname" name="surname" placeholder="Unsal" required>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-md-pull-4">
+            <label for="validationTextarea">Textarea</label>
+             <textarea class="form-control" id="comment" name="mesaj" placeholder="What you wanna say about us?" required></textarea><br>
+             
+            </form> 
+            <button id="addbutonu" class="btn btn-primary add_btn">Send Message!</button>
+            </div> 
+        </div>
+        <hr>
+    </div>
+<!--Mesaj Gönderim Kısmı-->
+<!--Mesajlar Kısmı-->
+<div class="container-xl">
+    <center>
+     <div class="row basla">
+     <!-- <div class="col-md-5 col-xs-6 boxstyle">
+          <span class="comment-name"><i class="far fa-grin-stars"></i> Hamza</span> <span class="comment-surname">Ünsal</span>
+          <div class="comment">This Comment is amazing man! Thank you so much!</div>
+      </div>
+      
+      <div class="col-md-5 col-xs-6 boxstyle">
+          <span class="comment-name"><i class="far fa-grin-stars"></i> Mete</span> <span class="comment-surname">Ünsal</span>
+          <div class="comment">Yorum Kısmı Buraya gelir. Burada Yorumları Görebilirsiniz.</div>
+      </div>-->
+      </div>
+      <hr>
+      |USED TECHS|<br>| Bootstrap |<br>| Javascript|
+      </center>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
